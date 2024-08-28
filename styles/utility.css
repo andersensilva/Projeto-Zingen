@@ -24,7 +24,7 @@
   margin-inline: auto;
 }
 
-.deskop-only {
+.desktop-only {
   display: none;
 }
 
@@ -37,8 +37,16 @@
   display: flex;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .grid {
@@ -50,8 +58,9 @@
     --max-width: 80rem;
   }
 
-  .deskop-only {
+  .desktop-only {
     display: initial;
+    align-self: center;
   }
 
   .even-collumns {
