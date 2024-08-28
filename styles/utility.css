@@ -3,7 +3,7 @@
 }
 
 .py-lg{
-  padding-block: var(--py-lg);
+  padding-inline: var(--py-lg);
 }
 
 .py-xl{
